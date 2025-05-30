@@ -65,6 +65,9 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+# Gradio stuff:
+.gradio/
+
 # Scrapy stuff:
 .scrapy
 
@@ -128,7 +131,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -172,3 +174,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# developer files
+dev*
